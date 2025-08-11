@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Landing para barbería profesional" />
+  <title>Barbería Pro - Cortes clásicos y modernos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/png">
+
+
+
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <h1 class="logo">Barbería Pro</h1>
+      <nav class="main-nav">
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+  <span></span>
+</button>
+
+        <ul class="nav-list" id="nav-list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Sobre Nosotros</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="https://wa.me/549XXXXXXXXXX?text=Hola!%20Quiero%20hacer%20una%20reserva" target="_blank" class="btn-primary">Reservar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!-- HERO: reemplazar la sección hero existente por esto -->
+<section class="hero" id="inicio">
+  <div class="hero-slides" aria-hidden="true">
+    <div class="hero-slide" style="background-image: url('assets/images/hero1.webp')"></div>
+    <div class="hero-slide" style="background-image: url('assets/images/hero2.webp')"></div>
+    <div class="hero-slide" style="background-image: url('assets/images/hero3.webp')"></div>
+  </div>
+
+  <div class="container hero-content">
+    <h2 class="hero-title">Cortes clásicos y modernos</h2>
+    <p>Tu estilo empieza aquí</p>
+    <a href="https://wa.me/549XXXXXXXXXX?text=Hola!%20Quiero%20hacer%20una%20reserva" target="_blank"  class="btn-secondary">Reservar ahora</a>
+  </div>
+
+  <div class="hero-controls" aria-hidden="true">
+    <button class="hero-prev" aria-label="Anterior">‹</button>
+    <button class="hero-next" aria-label="Siguiente">›</button>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section class="services" id="servicios">
+  <div class="container">
+    <h2 class="section-title">Nuestros Servicios</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="assets/images/service1.webp" alt="Corte clásico">
+        <h3>Corte Clásico</h3>
+        <p>Estilo atemporal y elegante, adaptado a tu personalidad.</p>
+      </div>
+      <div class="service-card">
+        <img src="assets/images/service2.webp" alt="Afeitado profesional">
+        <h3>Afeitado Profesional</h3>
+        <p>Experiencia de afeitado tradicional con toalla caliente.</p>
+      </div>
+      <div class="service-card">
+        <img src="assets/images/service3.webp" alt="Diseños modernos">
+        <h3>Diseños Modernos</h3>
+        <p>Cortes creativos y personalizados según las últimas tendencias.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE NOSOTROS -->
+<section class="about" id="nosotros">
+  <div class="container about-content">
+    <div class="about-text">
+      <h2 class="section-title">Sobre Nosotros</h2>
+      <p>
+        En <strong>Barbería Clásica</strong> combinamos tradición y estilo moderno para ofrecerte una experiencia única.
+        Nuestros barberos cuentan con años de experiencia y pasión por su trabajo, asegurando que cada visita sea más que un simple corte: 
+        es un momento para vos.
+      </p>
+      <p>
+        Usamos productos de alta calidad y técnicas personalizadas para cada cliente, porque tu imagen es nuestra mejor carta de presentación.
+      </p>
+      <a href="https://wa.me/549XXXXXXXXXX?text=Hola!%20Quiero%20hacer%20una%20reserva" target="_blank" class="btn-primary">Reservar turno</a>
+    </div>
+    <div class="about-image">
+      <img src="assets/images/about.webp" alt="Barbero trabajando">
+    </div>
+  </div>
+</section>
+
+<!-- Galeria - parte nueva -->
+
+<!-- GALERÍA -->
+<section class="gallery" id="galeria">
+  <div class="container">
+    <h2 class="section-title">Nuestra Galería</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="assets/images/gallery1.webp" alt="Corte clásico">
+      </div>
+      <div class="gallery-item">
+        <img src="assets/images/gallery2.webp" alt="Corte moderno">
+      </div>
+      <div class="gallery-item">
+        <img src="assets/images/gallery3.webp" alt="Afeitado tradicional">
+      </div>
+      <div class="gallery-item">
+        <img src="assets/images/gallery4.webp" alt="Estilo con degradado">
+      </div>
+      <div class="gallery-item">
+        <img src="assets/images/gallery5.webp" alt="Ambiente de barbería">
+      </div>
+      <div class="gallery-item">
+        <img src="assets/images/gallery6.webp" alt="Barbero trabajando">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="testimonials" id="testimonios">
+  <div class="container">
+    <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <p>"Excelente atención, cortes impecables y un ambiente muy agradable. ¡Volveré sin dudas!"</p>
+        <h4>Juan Pérez</h4>
+        <span>Cliente habitual</span>
+      </div>
+      <div class="testimonial-card">
+        <p>"El mejor afeitado tradicional que he probado. Detalles cuidados y servicio de primera."</p>
+        <h4>Martín López</h4>
+        <span>Cliente desde 2020</span>
+      </div>
+      <div class="testimonial-card">
+        <p>"Profesionales de verdad, entendieron exactamente lo que quería para mi barba."</p>
+        <h4>Lucas Rodríguez</h4>
+        <span>Nueva experiencia</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="contact" id="contacto">
+  <div class="container contact-grid">
+    
+    <!-- Información -->
+    <div class="contact-info">
+      <h2 class="section-title">Contáctanos</h2>
+      <p>Reserva tu turno o haznos cualquier consulta. Estamos para ayudarte.</p>
+      
+      <ul>
+        <li><strong>📍 Dirección:</strong> Av. Siempre Viva 123, Buenos Aires</li>
+        <li><strong>📞 Teléfono:</strong> +54 11 1234 5678</li>
+        <li><strong>✉ Email:</strong> contacto@barberia.com</li>
+      </ul>
+
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+
+<form class="contact-form">
+    <input type="text" name="from_name" placeholder="Nombre" required>
+    <input type="email" name="from_email" placeholder="Correo electrónico" required>
+    <textarea name="message" placeholder="Mensaje" rows="5" required></textarea>
+    <button type="submit" class="btn-secondary">Enviar mensaje</button>
+</form>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-content">
+    
+    <!-- Izquierda -->
+    <div class="footer-section">
+      <h3 class="footer-logo">Mi Barbería</h3>
+      <p>Estilo y cuidado para tu cabello y barba. Tu look en las mejores manos.</p>
+    </div>
+
+    <!-- Centro -->
+    <div class="footer-section">
+      <h4>Enlaces</h4>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Sobre nosotros</a> </li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+
+    <!-- Derecha -->
+    <div class="footer-section">
+      <h4>Contacto</h4>
+      <p>Email: <a href="mailto:info@mibarberia.com">info@mibarberia.com</a></p>
+      <p>Tel: <a href="tel:+541112345678">+54 11 1234 5678</a></p>
+      <div class="social-links">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Barra inferior -->
+  <div class="footer-bottom">
+    <p>© 2025 Mi Barbería - Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+
+  <!-- SCRIPT MENU HAMBURGUESA -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const toggle = document.getElementById('menu-toggle');
+      const navList = document.getElementById('nav-list');
+
+      toggle.addEventListener('click', () => {
+        navList.classList.toggle('show');
+      });
+    });
+  </script>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<!-- Botón a WhatsApp --
+<a href="https://wa.me/549XXXXXXXXX?text=Hola%20quiero%20hacer%20una%20reserva" 
+   class="whatsapp-float" target="_blank">
+   <img src="img/whatsapp-icon.png" alt="WhatsApp">
+</a>
+
+!-- Botón Scroll to Top --
+<a href="#" id="scrollToTop" class="scroll-to-top">&#8679;</a>
+-->
+<!-- Botón Scroll to Top -->
+<a href="#" id="scrollToTop" class="scroll-to-top" aria-label="Ir arriba">
+    <!-- Flecha SVG -->
+    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="28" height="28">
+        <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.59 5.58L20 12l-8-8-8 8z"/>
+    </svg>
+</a>
+
+<!-- Botón WhatsApp -->
+<a href="https://wa.me/549XXXXXXXXX" target="_blank" class="whatsapp-button" aria-label="WhatsApp"> 
+    <!-- Icono WhatsApp SVG -->
+    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="28" height="28">
+        <path d="M20.52 3.48A11.79 11.79 0 0 0 12 0C5.37 0 0 5.37 0 12c0 2.12.55 4.19 1.6 6.02L0 24l6.17-1.62A12 12 0 1 0 20.52 3.48ZM12 21.8c-1.93 0-3.79-.5-5.43-1.45l-.39-.23-3.66.96.98-3.57-.25-.37A9.77 9.77 0 0 1 2.2 12a9.8 9.8 0 0 1 16.73-6.93A9.8 9.8 0 0 1 12 21.8Zm5.41-7.35c-.3-.15-1.78-.88-2.05-.98-.28-.1-.48-.15-.68.15-.2.3-.78.97-.95 1.17-.17.2-.35.23-.65.08-.3-.15-1.26-.46-2.4-1.47-.89-.79-1.49-1.76-1.66-2.06-.17-.3-.02-.46.13-.6.13-.12.3-.31.45-.46.15-.15.2-.25.3-.42.1-.17.05-.32-.02-.46-.08-.15-.68-1.64-.93-2.25-.24-.58-.49-.5-.68-.5-.18 0-.37-.02-.57-.02s-.52.08-.79.38c-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.06 2.87 1.21 3.07.15.2 2.09 3.2 5.08 4.48 2.98 1.28 3.12.88 3.68.83.56-.05 1.78-.73 2.03-1.43.25-.7.25-1.3.18-1.43-.07-.13-.27-.2-.57-.35Z"/>
+    </svg>
+</a>
+
+
+
+
+</body>
+</html>
+
+
